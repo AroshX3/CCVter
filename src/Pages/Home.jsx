@@ -1,3 +1,5 @@
+import { Link } from "react-router"
+
 const Home = () => {
   return (
     <>
@@ -7,7 +9,7 @@ const Home = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Welcome to CCV-ter</h1>
 
           <p className="text-base sm:text-lg md:text-xl max-w-2xl mb-6 text-gray-300 px-2 sm:px-0">
-            CCV-ter is your smart and simple currency converter built for students, travelers, and global peeps who hate math but love accuracy 😎
+            CCV-ter is your smart and simple currency converter built for students, travelers, and global peeps who hate math but love accuracy
           </p>
 
           <div className="max-w-3xl text-xs sm:text-sm md:text-base text-gray-400 space-y-4 px-2 sm:px-0">
@@ -23,12 +25,12 @@ const Home = () => {
             </p>
           </div>
 
-          <a 
-            href="/ccvter" 
+          <Link
+            to={"/ccvter"} 
             className="mt-8 px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-full font-semibold transition duration-300"
           >
             Try Converter Now
-          </a>
+          </Link>
         </div>
       </section>
     </>

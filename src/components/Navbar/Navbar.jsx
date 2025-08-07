@@ -12,7 +12,6 @@ return (
                 <li><Link className="hover:text-blue-950" to={"/"}>Home</Link></li>
                 <li><Link className="hover:text-blue-950" to={"/about"}>About</Link></li>
                 <li><Link className="hover:text-blue-950" to={"/ccvter"}>CCvter</Link></li>
-                <li><Link className="hover:text-blue-950" to={""}>Contact</Link></li>
                 </ul>
             </div>
             </div>

@@ -13,17 +13,17 @@ const About = () => {
 
         <div className="max-w-3xl text-xs sm:text-sm md:text-base text-gray-400 space-y-4 px-2 sm:px-0">
           <p>
-            I’m currently a student of <span className="text-white font-medium">Class 7</span> — but don’t let the grade fool you, I’m already cooking React apps like a pro 🍳💻
+            Im currently a student of <span className="text-white font-medium">Class 7</span> — but dont let the grade fool you, Im already cooking React apps like a pro 
           </p>
           <p>
-            I’m learning full React development through a dedicated course to build cool, useful web apps — and CCV-ter is one of my first public projects.
+            Im learning full React development through a dedicated course to build cool, useful web apps — and CCV-ter is one of my first public projects.
           </p>
           <p>
             My goal is to keep leveling up my dev skills, help other students, and create more tools that make life easier (and math less annoying).
           </p>
         </div>
 
-        <p className="mt-6 text-gray-500 text-sm">Made with computer, tea ☕ and a dream 💭.</p>
+        <p className="mt-6 text-gray-500 text-sm">Made with computer, tea  and a dream .</p>
       </div>
     </section>
   );

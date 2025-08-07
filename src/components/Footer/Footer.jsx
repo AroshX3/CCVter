@@ -10,7 +10,7 @@ const Footer = () => {
           <p className="text-sm text-gray-400">
             Your ultimate currency converter.<br />
             Fast, simple & accurate.<br />
-            Made with ❤️ by AroshX3.
+            Made with by AroshX3.
           </p>
         </div>
 
