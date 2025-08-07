@@ -1,12 +1,13 @@
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom"
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router"
 import Navbar from "./components/Navbar/Navbar"
 import Home from "./Pages/Home"
 import CCVter from "./Pages/CCVter"
 import About from "./Pages/About"
 import Footer from "./components/Footer/Footer"
+import Layoutone from "./Layouts/Layoutone"
 const myRoute = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
+    <Route element={<Layoutone />}>
       <Route path='/' element={<Home />} />
       <Route path='/ccvter' element={<CCVter />} />
       <Route path='/about' element={<About />} />
@@ -18,11 +19,11 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      
 
       <RouterProvider router={myRoute} />
 
-      <Footer />
+      
     </>
   )
 }

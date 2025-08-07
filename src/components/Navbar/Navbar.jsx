@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 
 
 const Navbar = () => {
@@ -8,10 +9,10 @@ return (
             <div className="logo text-4xl text-white font-Inter font-bold"><i className="fa-brands fa-web-awesome text-white">CCv-Ter</i></div>
             <div className="Menu">
                 <ul className="flex gap-8 text-lg text-white font-medium ">
-                <li><a className="hover:text-blue-950" href="/">Home</a></li>
-                <li><a className="hover:text-blue-950" href="/about">About</a></li>
-                <li><a className="hover:text-blue-950" href="/ccvter">CCvter</a></li>
-                <li><a className="hover:text-blue-950" href="">Contact</a></li>
+                <li><Link className="hover:text-blue-950" to={"/"}>Home</Link></li>
+                <li><Link className="hover:text-blue-950" to={"/about"}>About</Link></li>
+                <li><Link className="hover:text-blue-950" to={"/ccvter"}>CCvter</Link></li>
+                <li><Link className="hover:text-blue-950" to={""}>Contact</Link></li>
                 </ul>
             </div>
             </div>

@@ -8,7 +8,7 @@ const About = () => {
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">About the Developer</h1>
 
         <p className="text-base sm:text-lg md:text-xl max-w-2xl mb-6 text-gray-300 px-2 sm:px-0">
-          Hey! I’m <span className="font-semibold text-blue-400">AroshX3</span> — the proud creator of <span className="font-semibold text-green-400">CCV-ter</span>
+          Hey! Im <span className="font-semibold text-blue-400">AroshX3</span> — the proud creator of <span className="font-semibold text-green-400">CCV-ter</span>
         </p>
 
         <div className="max-w-3xl text-xs sm:text-sm md:text-base text-gray-400 space-y-4 px-2 sm:px-0">
